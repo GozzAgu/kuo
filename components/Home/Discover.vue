@@ -21,8 +21,8 @@
   <div class="lg:px-40 p-4 lg:py-4 mt-12">
     <h2 class="text-lg mb-2 font-semibold border-l-4 border-red-800 pl-2">Our Approach</h2>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <img src="/images/kuo-hero.webp" />
-      <div class="text-sm xl:text-base border-b-2 p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
+      <img src="/images/Approach-39278651.jpg" />
+      <div class="text-sm xl:text-base border-b-2 py-8 md:p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
         <p>
           At KUO, we prioritize transparency, collaboration, and measurable results. 
           From prospecting to conversion, we optimize every step of the sales funnel. Our comprehensive 
@@ -36,13 +36,12 @@
   <div class="lg:px-40 p-4 lg:py-4 mt-12">
     <h2 class="text-lg mb-2 font-semibold border-l-4 border-red-800 pl-2">Committment</h2>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <img src="/images/kuo-hero.webp" />
-      <div class="text-sm xl:text-base border-b-2 p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
-        <p>
-          At KUO, we prioritize transparency, collaboration, and measurable results. 
-          From prospecting to conversion, we optimize every step of the sales funnel. Our comprehensive 
-          suite of services encompasses lead generation, strategic planning, and data analytics, 
-          ensuring your sales efforts are not only efficient but also effective.
+      <img src="/images/Committment-91b78eaf.jpg" />
+      <div class="text-sm xl:text-base border-b-2 py-8 md:p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
+        <p> 
+          Our commitment to innovation, quality, and customer satisfaction sets us apart 
+          as a leader in the sector. Whether you're a seasoned professional 
+          or a first-time customer.
         </p>
       </div>
     </div>
@@ -51,13 +50,12 @@
   <div class="lg:px-40 p-4 lg:py-4 mt-12">
     <h2 class="text-lg mb-2 font-semibold border-l-4 border-red-800 pl-2">Courier</h2>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <img src="/images/kuo-hero.webp" />
-      <div class="text-sm xl:text-base border-b-2 p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
+      <img src="/images/Courier-08aeb54a.jpg" />
+      <div class="text-sm xl:text-base border-b-2 py-8 md:p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
         <p>
-          At KUO, we prioritize transparency, collaboration, and measurable results. 
-          From prospecting to conversion, we optimize every step of the sales funnel. Our comprehensive 
-          suite of services encompasses lead generation, strategic planning, and data analytics, 
-          ensuring your sales efforts are not only efficient but also effective.
+          At KUO, we understand the importance of reliable and efficient courier services. 
+          Our commitment is to redefine the way you experience parcel delivery, 
+          providing you with seamless solutions that prioritize speed, security, and convenience. 
         </p>
       </div>
     </div>
@@ -66,13 +64,13 @@
   <div class="lg:px-40 p-4 lg:py-4 mt-12">
     <h2 class="text-lg mb-2 font-semibold border-l-4 border-red-800 pl-2">Communication</h2>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <img src="/images/kuo-hero.webp" />
-      <div class="text-sm xl:text-base border-b-2 p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
+      <img src="/images/Communication-d2eca8f8.jpg" />
+      <div class="text-sm xl:text-base border-b-2 py-8 md:p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
         <p>
-          At KUO, we prioritize transparency, collaboration, and measurable results. 
-          From prospecting to conversion, we optimize every step of the sales funnel. Our comprehensive 
-          suite of services encompasses lead generation, strategic planning, and data analytics, 
-          ensuring your sales efforts are not only efficient but also effective.
+          At KUO, we pride ourselves on fostering clear and effective communication with our valued customers. 
+          Open lines of communication are at the heart of our commitment to providing exceptional service.
+          Feel free to reach out to us through [email/phone/], and experience firsthand our commitment 
+          to excellent communication. Follow us on social media platforms for the latest updates.
         </p>
       </div>
     </div>
