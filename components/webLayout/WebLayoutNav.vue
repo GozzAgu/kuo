@@ -1,10 +1,12 @@
 <template>
   <div class="relative flex justify-between lg:px-40 p-4 lg:py-4 shadow-sm shadow-gray-300">
     <div class="">
-      <img
-        class="w-[3em] lg:w-[5.5em] shrink-0"
-        src="/images/kuologo.png"
-      >
+      <NuxtLink to="/">
+        <img
+          class="w-[3em] lg:w-[5.5em] shrink-0"
+          src="/images/kuologo.png"
+        >
+      </NuxtLink>
     </div>
     <div class="lg:hidden">
       <div>
