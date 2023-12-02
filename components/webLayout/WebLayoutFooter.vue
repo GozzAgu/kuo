@@ -8,7 +8,7 @@ const navLink = [
 </script>
 
 <template>
-  <div class="bg-slate-300 grid grid-cols-2 lg:px-40 p-4 lg:py-4">
+  <div class="bg-slate-300 grid grid-cols-2 lg:px-40 p-4 lg:py-8">
     <div class="">
       <img
         class="w-[3em] lg:w-[5.5em] shrink-0 -ml-2"

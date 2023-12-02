@@ -24,7 +24,7 @@ const solutions = ref([
 </script>
 
 <template>
-  <div class="lg:px-40 p-4 lg:py-4">
+  <div class="lg:px-40 p-4 lg:py-4 mb-24">
     <div class="mb-2 flex gap-x-4">
       <h1 class="text-2xl mb-12 text-blue-900 font-semibold md:border-l-4 border-red-700 pl-2">
         Our Products<Icon class="ml-2" name="ic:outline-double-arrow" />
