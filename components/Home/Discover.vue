@@ -8,14 +8,17 @@
     <p class="lg:px-40 p-4 lg:py-4 text-sm lg:text-base mt-8">
       KUO smart solution is a provider of industrial Electrical, instrumentation, measurement and control, 
       safety products, systems and services related to LV & MV electrical installations, 
-      automation Fire & Gas and mechanical systems . We partner with our customers to provide 
+      automation Fire & Gas and mechanical systems . 
+    </p>
+    <p class="lg:px-40 p-4 lg:py-4 text-sm lg:text-base mt-2">
+      We partner with our customers to provide 
       systems that work through provision of quality products, value added services and technical 
       solutions based on customer's requirements. Our teams are structured into five divisions namely 
       Electrical and Automation Systems (EAS); Fire and Safety Systems (FSS); Process Measurement and Control (PMC); 
       Containerized Switchboard We focus our product and services delivery to industries such as Oil & Gas, 
       Utilities, Manufacturing, Mining, Food Beverage, Marine, Construction and Other industries that require 
       a reliable partner for cost effective operation.
-    </p>
+    </p>  
   </div>
 
   <div class="lg:px-40 p-4 lg:py-4 mt-12">

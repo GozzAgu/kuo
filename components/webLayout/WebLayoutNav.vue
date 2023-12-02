@@ -3,7 +3,7 @@
     <div class="">
       <NuxtLink to="/">
         <img
-          class="w-[3em] lg:w-[5.5em] shrink-0"
+          class="w-[5em] lg:w-[8.5em] shrink-0"
           src="/images/kuologo.png"
         >
       </NuxtLink>

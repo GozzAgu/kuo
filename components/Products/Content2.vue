@@ -21,7 +21,7 @@ const positions = ref([
     description: '',
   },
   {
-    name: 'Valves &amp; Actuation (Installation &amp; Maintenance',
+    name: 'Valves &amp; Actuation (Installation &amp; Maintenance)',
     description: '',
   },
   {
