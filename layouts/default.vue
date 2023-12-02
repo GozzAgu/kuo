@@ -9,7 +9,7 @@ watch(() => route.path, () => {
 
 <template>
   <main class="relative h-full flex flex-col">
-    <WebLayoutNav @mobile-nav="mobileNavOpen = !mobileNavOpen" class="sticky top-0 bg-white z-1"/>
+    <WebLayoutNav @mobile-nav="mobileNavOpen = !mobileNavOpen" class="sticky top-0 bg-white z-10"/>
     <WebLayoutMobileNav @closeNav="mobileNavOpen = false" :is-open="mobileNavOpen" class="fixed inset-0 z-10" />
     <section class="flex-auto">
       <slot />
