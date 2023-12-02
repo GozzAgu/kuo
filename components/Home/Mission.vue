@@ -5,13 +5,13 @@
         <div class="text-white flex justify-center border-2 px-4 pb-4 rounded-xl bg-gradient-to-r from-gray-200 to-gray-400">
           <div class="md:w-[25em]">
             <h2 class="text-center bg-blue-950 rounded-b-xl py-2 mb-4 font-semibold w-full">Our Vision</h2>
-            <p class="text-blue-950">To be our client’s best partner in providing systems that work</p>
+            <p class="text-blue-950 text-sm md:text-base">To be our client’s best partner in providing systems that work</p>
           </div> 
         </div>
         <div class="text-white flex justify-center border-2 px-4 pb-4 rounded-xl bg-gradient-to-r from-gray-400 to-gray-200">
           <div class="md:w-[25em]">
             <h2 class="text-center bg-blue-950 rounded-b-xl py-2 mb-4 font-semibold w-full">Our Mission</h2>
-            <p class="text-blue-950">We exist to apply technical solution to human challenges in our fields of endeavor towards an efficient and safe world</p>
+            <p class="text-blue-950 text-sm md:text-base">We exist to apply technical solution to human challenges in our fields of endeavor towards an efficient and safe world</p>
           </div>
         </div>
       </div>
