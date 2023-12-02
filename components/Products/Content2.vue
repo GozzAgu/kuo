@@ -50,7 +50,7 @@ const processes = ref([
 ])
 
 const typedText = ref('')
-const textToType = ref('KUO LIMITED')
+const textToType = ref('KUO SMART SOLUTIONS LTD')
 
 function typetext() {
   let i = 0

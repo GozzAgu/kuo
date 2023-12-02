@@ -29,6 +29,12 @@ const navLink = [
         </NuxtLink>
         <div flex-auto />
       </div>
+
+      <div class="flex gap-x-4">
+        <Icon class="cursor-pointer text-2xl mt-1" name="ri:facebook-box-fill" />
+        <Icon class="cursor-pointer text-2xl mt-1" name="ri:twitter-x-line" />
+        <Icon class="cursor-pointer text-2xl mt-1" name="ri:linkedin-box-fill" />
+      </div>
     </div>
   </Transition>
 </template>
