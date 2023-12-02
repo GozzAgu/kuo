@@ -32,6 +32,10 @@ const positions = ref([
     name: 'Environmental Services',
     description: '',
   },
+  {
+    name: 'Logistics',
+    description: '',
+  },
 ])
 
 const processes = ref([
