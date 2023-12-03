@@ -57,44 +57,6 @@ const showChild = () => {
         </Transition>
       </div>
     </div>
-    <!-- <div class="solutions bg-white rounded-lg xl:flex gap-x-24">
-      <div class="solution-card xl:w-[70%] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-2 2xl:grid-cols-3 gap-5">
-        <div
-          v-for="solution in solutions"
-          :key="solution" 
-          class="
-            cursor-pointer
-            shadow-md
-            rounded-lg
-            flex
-            gap-x-2
-            lg:px-1
-            py-1"
-        >
-          <img
-            class="w-[3em] h-[3em] lg:w-[3.5em] lg:h-[3.5em] shrink-0"
-            :src="solution.img"
-          >
-          <NuxtLink
-            :to="solution.link"
-            class="hover:underline
-              transition
-              duration-300
-              ease-in-out
-              hover:text-red-700
-              flex
-              items-center
-              text-[10px]
-              md:text-[12px]
-              lg:text-[14px]
-              font-bold
-              text-blue-900"
-          >
-            {{ solution.name }}
-          </NuxtLink>
-        </div>
-      </div>
-    </div> -->
   </div>
 </template>
 

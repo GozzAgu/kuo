@@ -4,7 +4,7 @@
     <div class="bg-black h-full absolute inset-0 opacity-60"></div>
     <div class="absolute inset-0 flex flex-row p-4 lg:px-40 lg:py-4 items-center justify-center">
       <div>
-        <p class="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold text-white text-center">
+        <p class="text-white text-3xl lg:text-5xl font-bold text-center">
           About KUO
         </p>
         <p class="text-sm sm:text-sm md:text-base lg:text-base font-semibold text-white text-center mt-8">
