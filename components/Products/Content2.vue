@@ -104,26 +104,9 @@ onMounted(() => {
                 {{ position.name }}
               </p>
             </div>
-            <!-- <div class="h-[15em] relative bg-gradient-to-b from-white to-gray-400 opacity-80 p-4">
-              <p class="text-blue-950 font-bold mb-2 h-[3em]">
-                {{ position.name }}
-              </p>
-              <img class="absolute" src="/images/PHOTO-2023-07-10-07-22-42.jpg" />
-            </div> -->
           </div>
         </div>
       </div>
-
-      <!-- <div class="px-8 py-12 md:py-24 xl:p-24">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <img class="" src="/images/PHOTO-2023-07-10-07-22-42.jpg">          <img src="/images/PHOTO-2023-07-10-07-22-43.jpg">
-          <img class="" src="/images/PHOTO-2023-07-10-07-22-44 (1).jpg">
-          <img class="md:h-[15em]" src="/images/IMG_3601.jpg">
-          <img class="md:h-[15em]" src="/images/IMG_3603.jpg">
-          <img class="md:h-[15em] w-full" src="/images/IMG_3723.jpg">
-          <img class="md:h-[15em]" src="/images/PHOTO-2023-07-10-07-22-43 (1).jpg">
-        </div>
-      </div> -->
     </div>
   </div>
 </template>

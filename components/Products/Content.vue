@@ -21,6 +21,12 @@ const solutions = ref([
     id: 4,
   },
 ])
+
+const child = ref(false)
+
+const showChild = () => {
+  child.value = !child.value
+}
 </script>
 
 <template>
@@ -30,7 +36,28 @@ const solutions = ref([
         Our Products<Icon class="ml-2" name="ic:outline-double-arrow" />
       </h1>
     </div>
-    <div class="solutions bg-white rounded-lg xl:flex gap-x-24">
+
+    <div>
+      <div @click="showChild" class=" border rounded-lg p-4">
+        <div class="flex justify-between">
+          <p class="text-blue-950 md:text-xl font-semibold">Security Seals</p>
+          <Icon class="ml-2" name="ep:caret-bottom" />
+        </div>
+
+        <Transition>
+          <div v-if="child" class="mt-8 grid md:grid-cols-4 gap-4">
+            <div class="flex gap-8 border-2 rounded-lg p-4" v-for="solution in solutions" :key="solution" >
+              <img class="w-[3em] h-[3em] lg:w-[3.5em] lg:h-[3.5em] shrink-0" :src="solution.img" />
+              <div class="relative line-clamp-1">
+                <p class="flex items-center truncate">{{ solution.name }}</p> 
+                <p class="absolute bottom-0 text-sm text-gray-400">MDQ: 1,000 Pieces</p>
+              </div>
+            </div>        
+          </div>
+        </Transition>
+      </div>
+    </div>
+    <!-- <div class="solutions bg-white rounded-lg xl:flex gap-x-24">
       <div class="solution-card xl:w-[70%] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-2 2xl:grid-cols-3 gap-5">
         <div
           v-for="solution in solutions"
@@ -67,10 +94,19 @@ const solutions = ref([
           </NuxtLink>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <style scoped>
+/* we will explain what these classes do next! */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
 
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
 </style>
