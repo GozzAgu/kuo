@@ -21,7 +21,7 @@
         class="border-b border-transparent hover:border-blue-400 transition-all hover:text-blue-400"
       >
         <NuxtLink :to="link.to">
-          <p>{{ link.name }}</p>
+          <p class="mt-4">{{ link.name }}</p>
         </NuxtLink>
       </div>
     </div>
@@ -32,7 +32,7 @@
 const navLinks = ref([
   {to: '/', name: 'Home'},
   {to: '/company', name: 'Our Company'},
-  {to: '/products', name: 'Products'},
+  {to: '/products', name: 'Products & Services'},
   {to: '/contact', name: 'Contact Us'}
 ])
 

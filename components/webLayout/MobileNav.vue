@@ -5,7 +5,7 @@ defineProps({
 
 const navLink = [
   { head: 'Home', to: '/' },
-  { head: 'Products', to: '/products' },
+  { head: 'Products & Services', to: '/products' },
   { head: 'Our Company', to: '/company' },
   { head: 'Contact Us', to: '/contact' },
 ]
