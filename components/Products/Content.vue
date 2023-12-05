@@ -20,6 +20,71 @@ const solutions = ref([
     img: '/images/custseal.jpg',
     id: 4,
   },
+  {
+    name: 'Cable Security seal',
+    img: '/images/image0.jpeg',
+    id: 5,
+  },
+  {
+    name: 'Plastic security seal',
+    img: '/images/image1.jpeg',
+    id: 6,
+  },
+  {
+    name: 'Bolt security seal',
+    img: '/images/image3 (1).jpeg',
+    id: 7,
+  },
+  {
+    name: 'Customized security seal',
+    img: '/images/image3.jpeg',
+    id: 8,
+  },
+  {
+    name: 'Cable Security seal',
+    img: '/images/image4.jpeg',
+    id: 9,
+  },
+  {
+    name: 'Plastic security seal',
+    img: '/images/image5.jpeg',
+    id: 10,
+  },
+  {
+    name: 'Bolt security seal',
+    img: '/images/image6.jpeg',
+    id: 11,
+  },
+  {
+    name: 'Customized security seal',
+    img: '/images/image7.jpeg',
+    id: 12,
+  },
+  {
+    name: 'Cable Security seal',
+    img: '/images/image8.jpeg',
+    id: 9,
+  },
+  {
+    name: 'Plastic security seal',
+    img: '/images/image9.jpeg',
+    id: 10,
+  },
+  {
+    name: 'Bolt security seal',
+    img: '/images/image10.jpeg',
+    id: 11,
+  },
+  {
+    name: 'Customized security seal',
+    img: '/images/image11.jpeg',
+    id: 12,
+  },
+  {
+    name: 'Customized security seal',
+    img: '/images/image12.jpeg',
+    id: 12,
+  },
 ])
 
 const child = ref(false)
