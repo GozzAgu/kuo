@@ -36,11 +36,6 @@ const solutions = ref([
     id: 7,
   },
   {
-    name: 'Customized security seal',
-    img: '/images/image3.jpeg',
-    id: 8,
-  },
-  {
     name: 'Cable Security seal',
     img: '/images/image4.jpeg',
     id: 9,
@@ -57,6 +52,7 @@ const solutions = ref([
   },
   {
     name: 'Customized security seal',
+    description: 'Tamper plastic security metal locking steel',
     img: '/images/image7.jpeg',
     id: 12,
   },
@@ -77,11 +73,13 @@ const solutions = ref([
   },
   {
     name: 'Customized security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image11.jpeg',
     id: 12,
   },
   {
     name: 'Customized security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image12.jpeg',
     id: 12,
   },
@@ -115,7 +113,8 @@ const showChild = () => {
               <img class="w-[3em] h-[3em] lg:w-[3.5em] lg:h-[3.5em] shrink-0" :src="solution.img" />
               <div class="relative line-clamp-1">
                 <p class="flex items-center truncate">{{ solution.name }}</p> 
-                <p class="absolute bottom-0 text-sm text-gray-400">MDQ: 1,000 Pieces</p>
+                <p class="text-xs line-clamp-2">{{ solution.description }}</p>
+                <p class=" text-xs text-gray-400">MOQ: 1,000 Pieces</p>
               </div>
             </div>        
           </div>
