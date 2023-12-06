@@ -101,8 +101,8 @@ const showChild = () => {
     </div>
 
     <div>
-      <div @click="showChild" class=" border rounded-lg p-4">
-        <div class="flex justify-between">
+      <div class=" border rounded-lg p-4">
+        <div @click="showChild" class="flex justify-between">
           <p class="text-blue-950 md:text-xl font-semibold">Security Seals</p>
           <Icon class="ml-2" name="ep:caret-bottom" />
         </div>
