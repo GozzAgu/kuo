@@ -3,7 +3,7 @@ const positions = ref([
   {
     name: 'Engineering Services',
     description: '',
-    img: '/images/emmanuel-ikwuegbu--0-kl1BjvFc-unsplash.jpg'
+    img: '/images/eng.jpg'
   },
   {
     name: 'LV/MV Electrical System Installation',
