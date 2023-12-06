@@ -62,7 +62,7 @@
                   <input
                     type="hidden"
                     name="redirect"
-                    value=""
+                    value="https://web3forms.com/success"
                   />
                   <div class="mb-6">
                     <label
