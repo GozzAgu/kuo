@@ -114,7 +114,7 @@ const showChild = () => {
     </div>
 
     <div>
-      <div class=" border rounded-lg p-4">
+      <div class="bg-slate-50 rounded-lg p-4">
         <div @click="showChild" class="flex justify-between">
           <p class="text-blue-950 md:text-xl font-semibold">Security Seals</p>
           <Icon class="ml-2" name="ep:caret-bottom" />
@@ -122,7 +122,7 @@ const showChild = () => {
 
         <Transition>
           <div v-if="child" class="mt-8 grid md:grid-cols-3 xl:grid-cols-4 gap-4">
-            <div class="flex gap-8 border-2 rounded-lg p-4 h-[7.5em]" v-for="solution in solutions" :key="solution" >
+            <div class="flex gap-8 bg-white border rounded-lg p-4 h-[7.5em]" v-for="solution in solutions" :key="solution" >
               <img class="w-[3em] h-[3em] lg:w-[3.5em] lg:h-[3.5em] shrink-0" :src="solution.img" />
               <div class="relative line-clamp-1">
                 <p class="flex items-center truncate text-sm md:text-base">{{ solution.name }}</p>
