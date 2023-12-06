@@ -1,3 +1,7 @@
+<script setup>
+const contactKey = useRuntimeConfig().public.CON_KEY
+</script>
+
 <template>
   <div class="lg:px-40 p-4 lg:py-4">
     <div class="md:shadow-md bg-white md:rounded-3xl md:flex xl:flex gap-x-16 justify-between py-8 p-4 sm:p-12 mb-24">
@@ -52,7 +56,7 @@
             </div>
             <div class="m-7">
               <form action="https://api.web3forms.com/submit" method="POST" id="form">
-                <input type="hidden" name="access_key" value="986d1098-4866-4d24-8633-bf3b0fc77f28" />
+                <input type="hidden" name="access_key" :value="contactKey" />
                 <input
                   type="hidden"
                   name="subject"

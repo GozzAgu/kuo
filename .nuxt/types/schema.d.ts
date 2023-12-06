@@ -18,6 +18,8 @@ declare module 'nuxt/schema' {
   }
   interface PublicRuntimeConfig {
    FB_API_KEY: string,
+
+   CON_KEY: string,
   }
 }
 declare module 'vue' {
