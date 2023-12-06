@@ -151,8 +151,8 @@
             Phone numbers
           </h1>
           <div class="grid grid-cols-1">
-            <a href="tel:+2348111113988" class="text-sm hover:underline hover:cursor-pointer">(+234)811 484 9757</a>
-            <a href="tel:+4407493823427" class="text-sm hover:underline hover:cursor-pointer">(+234)818 962 7566</a>
+            <a href="tel:+2348114849757" class="text-sm hover:underline hover:cursor-pointer">(+234)811 484 9757</a>
+            <a href="tel:+2348189627566" class="text-sm hover:underline hover:cursor-pointer">(+234)818 962 7566</a>
           </div>
         </div>
         <div class="mt-8 text-sm">
