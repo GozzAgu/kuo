@@ -111,8 +111,8 @@ const showChild = () => {
           <div v-if="child" class="mt-8 grid md:grid-cols-3 xl:grid-cols-4 gap-4">
             <div class="flex gap-8 border-2 rounded-lg p-4" v-for="solution in solutions" :key="solution" >
               <img class="w-[3em] h-[3em] lg:w-[3.5em] lg:h-[3.5em] shrink-0" :src="solution.img" />
-              <div class="relative line-clamp-1">
-                <p class="flex items-center truncate">{{ solution.name }}</p> 
+              <div class="line-clamp-1">
+                <p class="flex items-center truncate text-sm md:text-base">{{ solution.name }}</p> 
                 <p class="text-xs line-clamp-2">{{ solution.description }}</p>
                 <p class=" text-xs text-gray-400">MOQ: 1,000 Pieces</p>
               </div>
