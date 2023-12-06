@@ -127,7 +127,7 @@ const showChild = () => {
               <div class="line-clamp-1">
                 <p class="flex items-center truncate text-sm md:text-base">{{ solution.name }}</p>
                 <hr class="my-2"> 
-                <p class="text-xs line-clamp-2">{{ solution.description }}</p>
+                <p class="text-xs line-clamp-1">{{ solution.description }}</p>
                 <p class=" text-xs text-gray-400">MOQ: 1,000 Pieces</p>
               </div>
             </div>        
