@@ -2,51 +2,61 @@
 const solutions = ref([
   {
     name: 'Cable Security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/cableseal.jpg',
     id: 1,
   },
   {
     name: 'Plastic security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/plasticseal.jpg',
     id: 2,
   },
   {
     name: 'Bolt security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/boltseal.jpg',
     id: 3,
   },
   {
     name: 'Customized security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/custseal.jpg',
     id: 4,
   },
   {
     name: 'Cable Security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image0.jpeg',
     id: 5,
   },
   {
     name: 'Plastic security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image1.jpeg',
     id: 6,
   },
   {
     name: 'Bolt security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image3 (1).jpeg',
     id: 7,
   },
   {
     name: 'Cable Security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image4.jpeg',
     id: 9,
   },
   {
     name: 'Plastic security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image5.jpeg',
     id: 10,
   },
   {
     name: 'Bolt security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image6.jpeg',
     id: 11,
   },
@@ -58,16 +68,19 @@ const solutions = ref([
   },
   {
     name: 'Cable Security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image8.jpeg',
     id: 9,
   },
   {
     name: 'Plastic security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image9.jpeg',
     id: 10,
   },
   {
     name: 'Bolt security seal',
+    description: 'Tamper evident plastic security seal for container',
     img: '/images/image10.jpeg',
     id: 11,
   },
