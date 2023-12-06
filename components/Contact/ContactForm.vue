@@ -15,14 +15,6 @@
             <input class="border rounded-md mb-2 p-2 outline-none hover:border-blue-700 focus:border-blue-900" type="email" placeholder="jane@email.com">
           </div>
           <div class=" grid grid-cols-1 mb-2">
-            <label class="text-gray-900 text-sm">Organisation</label>
-            <input class="border rounded-md mb-2 p-2 outline-none hover:border-blue-700 focus:border-blue-900" type="text" placeholder="Jane Doe Resources">
-          </div>
-          <div class=" grid grid-cols-1 mb-2">
-            <label class="text-gray-900 text-sm">Subject</label>
-            <input class="border rounded-md mb-2 p-2 outline-none hover:border-blue-700 focus:border-blue-900" type="text" placeholder="Maintenance Report">
-          </div>
-          <div class=" grid grid-cols-1 mb-2">
             <label class="text-gray-900 text-sm">Message</label>
             <textarea class="border rounded-md mb-2 p-2 outline-none hover:border-blue-700 focus:border-blue-900" type="textarea" placeholder="Type here..." />
           </div>
