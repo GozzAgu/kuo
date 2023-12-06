@@ -37,7 +37,7 @@ const navLink = [
         <h1 class="">
           Nigeria
         </h1>
-        <p class="text-sm">
+        <p class="text-xs md:text-sm">
           No 85B, Elijiji Lane, Woji, Port-Harcourt, Rivers state, Nigeria
         </p>
       </div>
