@@ -1,5 +1,5 @@
 <script setup>
-const contactKey = useRuntimeConfig().public.CON_KEY
+// const contactKey = useRuntimeConfig().public.CON_KEY
 </script>
 
 <template>
@@ -56,7 +56,7 @@ const contactKey = useRuntimeConfig().public.CON_KEY
             </div>
             <div class="m-7">
               <form action="https://api.web3forms.com/submit" method="POST" id="form">
-                <input type="hidden" name="access_key" :value="contactKey" />
+                <input type="hidden" name="access_key" value="986d1098-4866-4d24-8633-bf3b0fc77f28" />
                 <input
                   type="hidden"
                   name="subject"
