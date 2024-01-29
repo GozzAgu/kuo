@@ -1,103 +1,7 @@
 <script setup>
-const solutions = ref([
-  {
-    name: 'Cable Security seal',
-    description: 'Tamper proof high securit cable seal',
-    img: '/images/cableseal.jpg',
-    id: 1,
-  },
-  {
-    name: 'Plastic security seal',
-    description: 'Tamper evident plastic security seal for container',
-    img: '/images/plasticseal.jpg',
-    id: 2,
-  },
-  {
-    name: 'Bolt security seal',
-    description: 'High quality security cable safety locks container seal',
-    img: '/images/boltseal.jpg',
-    id: 3,
-  },
-  {
-    name: 'Customized security seal',
-    description: 'Tamper evident plastic security seal for container',
-    img: '/images/custseal.jpg',
-    id: 4,
-  },
-  {
-    name: 'Plastic Security seal',
-    description: 'Nylon label cable tie',
-    img: '/images/image0.jpeg',
-    id: 5,
-  },
-  {
-    name: 'Plastic security seal',
-    description: 'Tamper evident plastic security seal for container',
-    img: '/images/image1.jpeg',
-    id: 6,
-  },
-  {
-    name: 'Plastic security seal',
-    description: 'Tamper evident plastic security seal for container',
-    img: '/images/image3 (1).jpeg',
-    id: 7,
-  },
-  {
-    name: 'Plastic Security seal',
-    description: 'Light duty plastic seal',
-    img: '/images/image4.jpeg',
-    id: 8,
-  },
-  {
-    name: 'Cable security seal',
-    description: 'Tamper evident plastic security seal for container',
-    img: '/images/image5.jpeg',
-    id: 9,
-  },
-  {
-    name: 'Plastic security seal',
-    description: 'High security plastic seal',
-    img: '/images/image6.jpeg',
-    id: 10,
-  },
-  {
-    name: 'Plastic security seal',
-    description: 'Adjustable plastic container security seals',
-    img: '/images/image7.jpeg',
-    id: 11,
-  },
-  {
-    name: 'Plastic Security seal',
-    description: 'Tamper evident plastic security seal for container',
-    img: '/images/image8.jpeg',
-    id: 12,
-  },
-  {
-    name: 'Plastic security seal',
-    description: 'Tamper evident plastic security seal for container',
-    img: '/images/image9.jpeg',
-    id: 13,
-  },
-  {
-    name: 'Plastic security seal',
-    description: 'Light duty pull tigh security seal',
-    img: '/images/image10.jpeg',
-    id: 14,
-  },
-  {
-    name: 'Plastic security seal',
-    description: 'Tamper evident plastic security seal with metal locking',
-    img: '/images/image11.jpeg',
-    id: 15,
-  },
-  {
-    name: 'Plastic security seal',
-    description: 'Logo marking plastic seals for clothes',
-    img: '/images/image12.jpeg',
-    id: 16,
-  },
-])
+import { useStore } from '~/store';
 
+const store = useStore()
 const child = ref(false)
 
 const showChild = () => {
@@ -122,7 +26,7 @@ const showChild = () => {
 
         <Transition>
           <div v-if="child" class="mt-8 grid md:grid-cols-3 xl:grid-cols-4 gap-4">
-            <div class="flex gap-8 bg-white border rounded-lg p-4 h-[7.5em]" v-for="solution in solutions" :key="solution" >
+            <NuxtLink :to="'/product' + solution.id" class="flex gap-8 bg-white border rounded-lg p-4 h-[7.5em]" v-for="solution in store.solutions" :key="solution" >
               <img class="w-[3em] h-[3em] lg:w-[3.5em] lg:h-[3.5em] shrink-0" :src="solution.img" />
               <div class="relative line-clamp-1">
                 <p class="flex items-center truncate text-sm md:text-base">{{ solution.name }}</p>
@@ -130,7 +34,7 @@ const showChild = () => {
                 <p class="text-xs line-clamp-2 mb-2">{{ solution.description }}</p>
                 <p class="absolute bottom-0 text-xs text-gray-400">MOQ: 1,000 Pieces</p>
               </div>
-            </div>        
+            </NuxtLink>        
           </div>
         </Transition>
       </div>
