@@ -24,7 +24,7 @@
   <div class="lg:px-40 p-4 lg:py-4 mt-12">
     <h2 class="text-lg mb-2 font-semibold border-l-4 border-red-800 pl-2">Our Approach</h2>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <img src="/images/Approach-39278651.jpg" />
+      <img src="/images/app2.avif" />
       <div class="text-sm xl:text-base border-b-2 py-8 md:p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
         <p>
           At KUO, we prioritize transparency, collaboration, and measurable results. 
@@ -39,7 +39,7 @@
   <div class="lg:px-40 p-4 lg:py-4 mt-12">
     <h2 class="text-lg mb-2 font-semibold border-l-4 border-red-800 pl-2">Committment</h2>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <img src="/images/Committment-91b78eaf.jpg" />
+      <img src="/images/commit.jpg" />
       <div class="text-sm xl:text-base border-b-2 py-8 md:p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
         <p> 
           Our commitment to innovation, quality, and customer satisfaction sets us apart 
@@ -67,7 +67,7 @@
   <div class="lg:px-40 p-4 lg:py-4 mt-12">
     <h2 class="text-lg mb-2 font-semibold border-l-4 border-red-800 pl-2">Communication</h2>
     <div class="grid grid-cols-1 md:grid-cols-2">
-      <img src="/images/Communication-d2eca8f8.jpg" />
+      <img src="/images/commune.avif" />
       <div class="text-sm xl:text-base border-b-2 py-8 md:p-8 md:border-y-2 md:border-r-2 flex flex-col gap-y-6 items-center md:px-5">
         <p>
           At KUO, we pride ourselves on fostering clear and effective communication with our valued customers. 
