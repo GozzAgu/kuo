@@ -23,7 +23,7 @@ onMounted(async() => {
     <div class="gap-8 bg-white border rounded-lg p-4 md:flex justify-between md:h-[27em] md:py-[5em] md:px-[5em]" >
       <img class="w-[100%] h-[100%] md:w-[13.5em] md:h-[13.5em] shrink-0 mb-8" :src="prod?.img" />
       <div class="relative">
-        <p class="flex text-xl items-center font-bold md:text-base">Material: <span class="font-semibold text-lg ml-4">{{ prod?.name }}</span></p>
+        <p class="flex text-lg items-center font-bold md:text-base">Material: <span class="ml-4">{{ prod?.name }}</span></p>
         <hr class="my-2"> 
         <p class="mb-2">Type: <span class="ml-2">Plastic</span></p>
         <p class="mb-2">Performance: <span class="ml-2">One time use</span></p>
