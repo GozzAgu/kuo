@@ -6,6 +6,6 @@ export default defineNuxtConfig({
       CON_KEY : process.env.CONTACT_KEY,
     }
   },
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@pinia/nuxt'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@pinia/nuxt', '@nuxt/image'],
   devtools: { enabled: true }
 })

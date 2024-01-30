@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { useStore } from '~/store';
+// import { useStore } from '~/store';
+import solutions from '../solutions.json'
 
-const store = useStore()
+// const store = useStore()
 const route = useRoute()
 
 const prodID = computed(() => {
@@ -9,11 +10,10 @@ const prodID = computed(() => {
 })
 
 const prod = computed(() => {
-  return store.solutions.find(s => s.id == prodID.value);
+  return solutions.find(s => s.id == prodID.value);
 });
 
 onMounted(async() => {
-  await store.fetchSolutions()
   console.log(prod.value?.name)
 });
 </script>

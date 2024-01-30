@@ -1,12 +1,14 @@
 <script setup>
-import { useStore } from '~/store';
+// import { useStore } from '~/store';
+import solutions from '../../solutions.json'
 
-const store = useStore()
+// const store = useStore()
 const child = ref(false)
 
 const showChild = () => {
   child.value = !child.value
 }
+
 </script>
 
 <template>
@@ -26,7 +28,10 @@ const showChild = () => {
 
         <Transition>
           <div v-if="child" class="mt-8 grid md:grid-cols-3 xl:grid-cols-4 gap-4">
-            <NuxtLink :to="'/product' + solution.id" class="flex gap-8 bg-white border rounded-lg p-4 h-[7.5em]" v-for="solution in store.solutions" :key="solution" >
+            <NuxtLink :to="'/product' + solution.id" 
+              class="flex gap-8 bg-white border rounded-lg p-4 h-[7.5em]"
+              v-for="solution in solutions" :key="solution" 
+            >
               <img class="w-[3em] h-[3em] lg:w-[3.5em] lg:h-[3.5em] shrink-0" :src="solution.img" />
               <div class="relative line-clamp-1">
                 <p class="flex items-center truncate text-sm md:text-base">{{ solution.name }}</p>

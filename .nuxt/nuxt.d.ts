@@ -2,6 +2,7 @@
 /// <reference types="@nuxtjs/tailwindcss" />
 /// <reference types="nuxt-icon" />
 /// <reference types="@pinia/nuxt" />
+/// <reference types="@nuxt/image" />
 /// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/telemetry" />
 /// <reference types="nuxt" />
