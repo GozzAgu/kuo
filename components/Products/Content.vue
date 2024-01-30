@@ -32,7 +32,7 @@ const showChild = () => {
               class="flex gap-8 bg-white border rounded-lg p-4 h-[7.5em]"
               v-for="solution in solutions" :key="solution" 
             >
-              <img class="w-[3em] h-[3em] lg:w-[3.5em] lg:h-[3.5em] shrink-0" :src="solution.img" />
+              <img class="w-[3em] h-[3em] lg:w-[3.5em] lg:h-[3.5em] shrink-0" :src="`${solution.img}`" />
               <div class="relative line-clamp-1">
                 <p class="flex items-center truncate text-sm md:text-base">{{ solution.name }}</p>
                 <hr class="my-2"> 
